@@ -1,0 +1,41 @@
+/* src/pages/Contato.module.css */
+.contato_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d7d7d7;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 100px;
+  /* width: 600px; */
+
+}
+
+.content h1 {
+    font-size: 36px;
+    color: #6d0a57;
+    margin-bottom: 50px;
+}
+
+.contato_list {
+  list-style: none;
+  padding: 0;
+}
+
+.contato_list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contato_list li a {
+  color: #5585c9;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.contato_list li a:hover {
+  color: #dd127e;
+}

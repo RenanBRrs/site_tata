@@ -1,0 +1,60 @@
+.header {
+  background-color: #282c34;
+  color: #61dafb;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.profile_image {
+  border-radius: 50%; /* Torna a imagem redonda */
+  margin-right: 10px; /* Adiciona espaço entre a imagem e o menu */
+  margin-bottom: -85px;
+  margin-top: 10px;
+}
+.title {
+  font-size: 46px;
+  color: #5585c9;
+  text-align: center;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+.title:hover {
+  color: #dd127e; /* Mudar a cor ao passar o mouse */
+}
+
+/* Adapta o título para telas menores */
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 16px; /* Reduz o tamanho do título para telas menores */
+  }
+}
+
+.profile_image {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -55px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 70px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #083e89;
+}

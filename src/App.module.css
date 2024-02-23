@@ -1,0 +1,14 @@
+.main {
+  min-height: 60vh;
+  text-align: center;
+  padding: 2em;
+}
+
+.main h2 {
+  margin-bottom: 0.8em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Para ocupar pelo menos toda a altura da viewport */
+}
