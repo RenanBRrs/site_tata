@@ -12,7 +12,7 @@ const Contact = () => {
             <FaEnvelope /> taismuniz1@hotmail.com
           </li>
           <li>
-            <FaPhone /> (51) 9 9764-6946
+            <FaPhone /> (51) ***-***
           </li>
           <li>
             <FaLinkedin />{' '}
